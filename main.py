@@ -23,8 +23,8 @@ def getText(gen_text: GenTextModel):
 
 
 def main():
-    # uvicorn.run("main:app", host="0.0.0.0", port=5000, reload=True, workers=3)
-    uvicorn.run("main:app", port=5000, reload=True, workers=3)
+    uvicorn.run("main:app", host="0.0.0.0", port=5000, reload=True, workers=3)
+    # uvicorn.run("main:app", port=5000, reload=True, workers=3)
 
 
 if __name__ == "__main__":
