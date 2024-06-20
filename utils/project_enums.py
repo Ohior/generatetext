@@ -8,3 +8,4 @@ class Language(Enum):
     GERMAN = "de"
     ARABIC = "ar"
     CHINESE = "zh"
+    AUTOMATIC = "auto"

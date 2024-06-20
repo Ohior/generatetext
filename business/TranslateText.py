@@ -10,3 +10,6 @@ class TranslateText:
             from_language=get_text.from_lang.value
         )
         return text
+
+    def identifyLanguage(self, text: str) -> str:
+        return translators.translate_text()
