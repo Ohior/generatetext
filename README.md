@@ -35,3 +35,6 @@ from_lang and error are optional
   "error": null
 }
 ```
+### Available Languages
+
+`ENGLISH = "en" ,SPANISH = "es" ,FRENCH = "fr" ,GERMAN = "de" ,ARABIC = "ar" ,CHINESE = "zh" ,AUTOMATIC = "auto"`
